@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-masculino.png" alt="avatar do Rafael" class="rounded-circle" width="150" height="150">
+        <p class="lead">Eu sou Rafael_</p>
+        <h1>Eu crio experiências digitais</h1>
+        <p>Sou Desenvolvedor Front-end e Educador. Ensino lógica de programação e crio soluções interativas usando HTML, CSS e JavaScript. Veja alguns dos meus projetos mais recentes!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Bootstrap</p>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfólio Interativo</h5>
+                        <p class="card-text">Um portfólio responsivo e interativo com Bootstrap, projetado para destacar habilidades de desenvolvimento web.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogo Educativo com JavaScript</h5>
+                        <p class="card-text">Um jogo para ensinar lógica de programação aos iniciantes, com interatividade e feedback imediato.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto">
+                    <div class="card-body">
+                        <h5 class="card-title">Exploração Espacial com Scratch</h5>
+                        <p class="card-text">Projeto interativo desenvolvido no Scratch para ensinar conceitos básicos de astronomia a crianças.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modais dos projetos -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Portfólio Interativo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto mostra um portfólio responsivo e moderno com Bootstrap, demonstrando competências em HTML, CSS e JS.</p>
+                    <img src="img/projeto-1.png" class="img-fluid">
+                </div>
+                <div class="modal-footer">
+                    <a href="#">Ver projeto ao vivo</a>
+                    <a href="#">Ver código</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Jogo Educativo com JavaScript</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Projeto de jogo interativo criado para ensinar conceitos de programação de forma divertida e acessível.</p>
+                    <img src="img/projeto-2.png" class="img-fluid">
+                </div>
+                <div class="modal-footer">
+                    <a href="#">Ver projeto ao vivo</a>
+                    <a href="#">Ver código</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Exploração Espacial com Scratch</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Jogo educativo que utiliza o Scratch para ensinar astronomia através de uma experiência interativa com personagens e cenas.</p>
+                    <img src="img/projeto-3.png" class="img-fluid">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/rafaeldev">GitHub</a>
+        </div>
+        <p class="my-5 text-center">&copy; Copyright 2024. Produzido por Rafael Dev</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
